@@ -8,7 +8,7 @@ const actorinfo = (props)=>(
                 <p><span>Occupation: </span>{props.occupation}</p>
                 <p><span>Born: </span>{props.birthday}</p>
                 <p><span>Status: </span>{props.status}</p>
-                <Link to={'charecter/'+props.id}><p><button id="view_btn">View</button></p></Link>
+                <p><Link to={'charecter/'+props.id}><button id="view_btn">View</button></Link></p>
     </div>
     </Aux>
 );
